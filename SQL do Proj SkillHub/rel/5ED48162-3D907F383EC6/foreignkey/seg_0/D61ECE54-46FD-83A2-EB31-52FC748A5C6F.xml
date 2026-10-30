@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D61ECE54-46FD-83A2-EB31-52FC748A5C6F" containerWithKeyObject="186CD740-1649-B82A-C74C-86FAB24FF492" localFKIndex="210A57C8-1D18-C50B-8EF4-B7F7E9639904" name="INTERESSE_ALUNO_FK">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>B41569AC-6E69-F879-089B-9C6995965EDB</importedID>
+<referredTableLongName>PERFIL_ALUNO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>2EC732DE-8D9D-27B9-E758-0230843C1091</referredTableID>
+<keyObject>9FE58046-56A5-7A99-D294-61C4B165A865</keyObject>
+<referredKeyID>9FE58046-56A5-7A99-D294-61C4B165A865</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ALUNO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

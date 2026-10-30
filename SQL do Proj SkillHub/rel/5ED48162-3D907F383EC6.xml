@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="5ED48162-C570-7E59-358F-3D907F383EC6" mainViewID="1B90D276-E676-EC94-4390-8C1F6A45FDAB">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:55:19 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>MER projeto Skillhub.sql</fileName>
+<pathName>C:\Users\Surprise\Desktop</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

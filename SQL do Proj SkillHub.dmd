@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SQL do Proj SkillHub" id="97233FE5-62A2-BFCC-BBCB-0F696D9DFF1B" version="3.5">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:55:17 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>97233FE5-62A2-BFCC-BBCB-0F696D9DFF1B</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="73FFA29C-FD1A-9C03-7C1B-3A5C9A24EB06">
+<designStoragePath>C:\MER projeto Skillhub</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

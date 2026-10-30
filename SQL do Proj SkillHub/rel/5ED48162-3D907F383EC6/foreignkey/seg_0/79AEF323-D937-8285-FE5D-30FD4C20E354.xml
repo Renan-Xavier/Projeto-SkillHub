@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79AEF323-D937-8285-FE5D-30FD4C20E354" containerWithKeyObject="E0C09D70-3BAD-CE40-07B4-205B88CCC94D" localFKIndex="8B5003A9-B996-A5EF-ECA7-179CEE2B2AD4" name="AVALIACAO_ALUNO_TEMA_FK">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>D7FE1005-4CCA-C92B-3BB2-80D8F39B2C6D</importedID>
+<referredTableLongName>TEMA_AVALIACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C450C83E-9F34-6249-ED75-5182682B17C2</referredTableID>
+<keyObject>C93452DF-1E2D-CD1D-7227-41C0DC02D751</keyObject>
+<referredKeyID>C93452DF-1E2D-CD1D-7227-41C0DC02D751</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TEMA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0C09D70-3BAD-CE40-07B4-205B88CCC94D" name="AVALIACAO_ALUNO">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>BBD61F6A-09DF-DEDB-9058-CE369DE4051D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AVALIACAO_ID" id="ECA256D8-86E1-166D-EFB7-1C342E9CBEAD">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>568FB254-AACF-B0B3-6AC0-D53CE886831A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5616AA97-4D14-00BF-6B64-B368F82C7CE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ALUNO_ID" id="928127FB-C6BE-4611-6DB0-4B6DB7A2494D">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>06E3EC00-758E-9631-8DC3-7FCC13ABBCBC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5616AA97-4D14-00BF-6B64-B368F82C7CE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F209C01-1FF1-483D-4892-D0FB90C6A48A" referredColumn="4C0002F4-E1CD-27C1-3E69-52E6B503DB09"/>
+</associations>
+</Column>
+<Column name="TEMA_ID" id="CCCEE6C0-2FE0-1D03-3D01-A4FAE16636BF">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>1170D583-5D1E-AC04-8CB7-175F39E532ED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5616AA97-4D14-00BF-6B64-B368F82C7CE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79AEF323-D937-8285-FE5D-30FD4C20E354" referredColumn="94D17724-8B7B-49B2-88F6-662576ECCE11"/>
+</associations>
+</Column>
+<Column name="DATA_REALIZACAO" id="9B302409-F08D-3CCD-4F6F-A201CEC626BF">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>73BAB658-6791-578B-88A3-F33DA98C574A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8EE01755-B1BE-A379-9704-9C56C5E922FD</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PONTUACAO" id="AF023412-C2AB-47F3-B92A-044E7EB71745">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>ACA129A0-A078-9E75-4FFB-3B6391A235E1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3CB87CF-6A98-20F8-429D-3827E2A70053</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_PROXIMA_TENTATIVA" id="FEBC497B-55AE-22FD-2065-29CF25EA2858">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>D3622863-1C7D-541E-40B1-4F5B8BDEFEFC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8EE01755-B1BE-A379-9704-9C56C5E922FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BE839BD-93C3-315A-375C-B1839EEDA4B5" name="AVALIACAO_ALUNO_PK">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>E67D217F-E9FF-4112-883B-BA0473CC6E08</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA256D8-86E1-166D-EFB7-1C342E9CBEAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAD5A789-055A-1849-935E-6059DE866F3B" name="AVALIACAO_ALUNO_ALUNO_FK">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="928127FB-C6BE-4611-6DB0-4B6DB7A2494D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B5003A9-B996-A5EF-ECA7-179CEE2B2AD4" name="AVALIACAO_ALUNO_TEMA_FK">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCCEE6C0-2FE0-1D03-3D01-A4FAE16636BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7BC8AA9-6260-B229-DD0F-6EBA3400CCEF" containerWithKeyObject="186CD740-1649-B82A-C74C-86FAB24FF492" localFKIndex="EAA1EA5C-14C1-7CEE-81CB-2B0D748D67E6" name="INTERESSE_EMPRESA_FK">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>5285E8D9-EE7F-BB77-1B9E-323BCE281E1E</importedID>
+<referredTableLongName>PERFIL_EMPRESA</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5B3B4793-8BC8-9F57-1C87-41971BBE5C0A</referredTableID>
+<keyObject>E9599375-0961-78C5-7C32-999F9DE836DF</keyObject>
+<referredKeyID>E9599375-0961-78C5-7C32-999F9DE836DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMPRESA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="85ED3C55-1FCA-5AE9-9BAF-6381E6549A8A" containerWithKeyObject="2F70BEC7-60E1-3B57-2BF5-BE9C2C7382FA" localFKIndex="E58C4A07-7DFA-54E0-85C9-CB73CBC10E33" name="EXERCICIO_VIDEO_FK">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>28C48041-410D-AE54-1806-28917F8B1D69</importedID>
+<referredTableLongName>VIDEO_CONTEUDO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>4306F57C-DED5-806E-FFB2-D715654E2F1A</referredTableID>
+<keyObject>82BA75FD-8F2A-4790-C2FE-8CDDFF9A7DFA</keyObject>
+<referredKeyID>82BA75FD-8F2A-4790-C2FE-8CDDFF9A7DFA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VIDEO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

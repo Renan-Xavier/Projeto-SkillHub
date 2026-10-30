@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11541BCC-59F9-2C8D-DAB0-1C43D1EFAAFA" containerWithKeyObject="4306F57C-DED5-806E-FFB2-D715654E2F1A" localFKIndex="7659C3DC-546D-8E05-0828-60B545559C23" name="VIDEO_CRIADOR_FK">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>91DB049F-472B-8D2F-55EC-018436BAA0B1</importedID>
+<referredTableLongName>PERFIL_CRIADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9AF85B5A-232A-FFEB-E711-4470361C2CF2</referredTableID>
+<keyObject>2AC0B145-63B6-C4BE-2CEC-E5FE8CA9B2D0</keyObject>
+<referredKeyID>2AC0B145-63B6-C4BE-2CEC-E5FE8CA9B2D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CRIADOR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

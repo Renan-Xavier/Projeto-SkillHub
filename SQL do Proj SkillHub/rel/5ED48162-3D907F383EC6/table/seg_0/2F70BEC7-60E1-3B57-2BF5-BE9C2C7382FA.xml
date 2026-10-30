@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F70BEC7-60E1-3B57-2BF5-BE9C2C7382FA" name="EXERCICIO_VIDEO">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>15E518B3-6C5C-31D4-D85F-21B6A777791C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EXERCICIO_ID" id="1F5A8F9A-51C8-EB97-4DDC-AEA3EB19BA59">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>E5A9E532-D1D8-3E2C-FBE2-6A1AF5932DF8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5616AA97-4D14-00BF-6B64-B368F82C7CE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="VIDEO_ID" id="DE7D628F-6729-4038-3D5E-5160EFC084C1">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>CE1F556C-7438-1A13-C6D7-5E2ECD955D2F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5616AA97-4D14-00BF-6B64-B368F82C7CE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85ED3C55-1FCA-5AE9-9BAF-6381E6549A8A" referredColumn="4E8961B0-8FEE-867B-B315-DA4084CEFC64"/>
+</associations>
+</Column>
+<Column name="TIPO_CRIADOR" id="9EB989EC-D1B1-7C82-0577-A38E47EA376C">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>F13D73D7-8DB2-138E-8120-80AB2A8EC9E3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BCFFCEE7-C4AF-F473-C8D0-41DC36D34966</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENUNCIADO" id="9208D854-268D-D5A9-04FA-E7ED613286F8">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:13 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>EC48D7A0-3080-0919-0BAB-6292D4FE04AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>71571F5A-66A4-A13E-3B19-DD6A34CDC813</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_QUESTAO" id="E5C46456-766E-54D0-F006-4884B5DE28E1">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>FC277A43-B2CC-AB7F-3880-209117E1229F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>050F4399-C8CA-1D49-6B0E-9A391780E80D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F315D34-DC25-F33C-500D-12E7B5AA50E5" name="EXERCICIO_VIDEO_PK">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>F88974DC-DEBF-CA0D-29B7-33A85E18AD4E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F5A8F9A-51C8-EB97-4DDC-AEA3EB19BA59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E58C4A07-7DFA-54E0-85C9-CB73CBC10E33" name="EXERCICIO_VIDEO_FK">
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7D628F-6729-4038-3D5E-5160EFC084C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="TIPO_CRIADOR_CHK" directorySegmentName="seg_0" id="93174A49-751F-C6F3-E77D-90DB344B45BB">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>357F9788-14B1-9F60-3B2D-2C9E2321DE2B</importedID>
+<rule><![CDATA[TIPO_CRIADOR IN ('IA', 'HUMANO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="TIPO_QUESTAO_CHK" directorySegmentName="seg_0" id="48FB1060-A401-3A2D-AE61-F97F8EE5368A">
+<sourceDDLFile>MER projeto Skillhub.sql</sourceDDLFile>
+<createdBy>Surprise</createdBy>
+<createdTime>2025-11-17 13:56:14 UTC</createdTime>
+<ownerDesignName>SQL do Proj SkillHub</ownerDesignName>
+<importedID>BA40FC1E-EC58-C0CA-E432-35E453F62BE7</importedID>
+<rule><![CDATA[TIPO_QUESTAO IN ('MULTIPLA_ESCOLHA', 'ABERTA')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
