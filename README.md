@@ -3,8 +3,19 @@
 ![Oracle](https://img.shields.io/badge/Oracle_Database-Data_Modeler-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![UI/UX](https://img.shields.io/badge/Prot%C3%B3tipo-UI%2FUX_Design-FF61F6?style=for-the-badge&logo=figma&logoColor=white)
 ![Global Solution](https://img.shields.io/badge/FIAP-Global_Solution-ED145B?style=for-the-badge)
+[![YouTube Pitch](https://img.shields.io/badge/YouTube-Apresentação_em_Vídeo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=YsNf0N--3XQ)
 
 **Autor:** Renan Santa Rosa Xavier — RM566997
+
+---
+
+## 🎬 Vídeo de Apresentação (Pitch Global Solution)
+
+Assista ao pitch e demonstração completa da plataforma SkillHub no YouTube:
+
+[![Apresentação SkillHub no YouTube](https://img.youtube.com/vi/YsNf0N--3XQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=YsNf0N--3XQ)
+
+> 🔗 **Assistir no YouTube:** [Projeto SkillHub — Global Solution FIAP](https://www.youtube.com/watch?v=YsNf0N--3XQ)
 
 ---
 
