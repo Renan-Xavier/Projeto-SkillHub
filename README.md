@@ -4,8 +4,9 @@
 ![UI/UX](https://img.shields.io/badge/Prot%C3%B3tipo-UI%2FUX_Design-FF61F6?style=for-the-badge&logo=figma&logoColor=white)
 ![Global Solution](https://img.shields.io/badge/FIAP-Global_Solution-ED145B?style=for-the-badge)
 [![YouTube Pitch](https://img.shields.io/badge/YouTube-Apresentação_em_Vídeo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=YsNf0N--3XQ)
+[![Portfólio](https://img.shields.io/badge/Portfólio-renan--xavier.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://renan-xavier.vercel.app)
 
-**Autor:** Renan Santa Rosa Xavier — RM566997
+**Autor:** Renan Santa Rosa Xavier — RM566997 | 🌐 **Portfólio:** [renan-xavier.vercel.app](https://renan-xavier.vercel.app)
 
 ---
 
